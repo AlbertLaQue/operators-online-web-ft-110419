@@ -17,8 +17,7 @@ end
 #version of #unsafe? 
 #will use the ternary operator 
 def not_safe?(speed)
-  speed < 40 || speed > 60 ? true : false
-  end
+  speed < 40 && speed > 60 ? true : false
 	end
 	
 
